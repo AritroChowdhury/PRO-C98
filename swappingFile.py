@@ -7,5 +7,8 @@ def swapFileData():
         noOfWords=noOfWords+len(word)
     print('No Of Words' )
     print(noOfWords)
+    
+    with open(file1,'r') as a:
+        data_a=a.read()
 
 countWordsFromFile()    
